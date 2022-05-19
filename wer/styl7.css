@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    background-color: rgb(70, 130, 180);
+    color: white;
+    height: 30px;
+    text-align: center;
+}
+.baner{
+    background-color: rgb(70, 130, 180);
+    color: white;
+    height: 30px;
+    text-align: center;
+}
+.glowny{
+    background-color: rgb(176, 196, 222);
+    padding: 50px;
+    text-align: center;
+}
+.lewy{
+    background-color: rgb(70, 130, 180);
+    color: white;
+    height: 300px;
+    width: 80%;
+    float: left;
+}
+.prawy{
+    background-color: rgb(70, 130, 180);
+    color: white;
+    height: 300px;
+    width: 20%;
+    float: left;
+}
+.img-gl{
+    padding: 3px;
+    border: dashed 1px blue;
+    border-radius: 10px;
+}
+.img-l{
+    height: 40%;
+}
+.img-l:hover{
+    height: 40%;
+    border: solid 1px white;
+}
+.ikonka{
+    background-image: url(./icon-on.png);
+}
+div opis
+if ( '21>11' )
+alarm (prawda)

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeria</title>
+    <link rel="stylesheet" href="styl7.css" />
+  </head>
+  <body>
+    <section class="baner">
+      <h2>Galeria miejsc ciekawych</h2>
+    </section>
+    <section class="glowny" id="glownyBlok">
+      <img
+        src="./lanzarotte.jpg"
+        alt="galeria"
+        class="img-gl"
+        id="img-glowne"
+      />
+    </section>
+    <section class="lewy">
+      <h3>Przeglądaj zdjęcia</h3>
+      <img
+        src="./lanzarotte.jpg"
+        alt="lanzarotte"
+        class="img-l"
+        onclick="zdj(this.src)"
+      />
+      <img
+        src="./pekin.jpg"
+        alt="pekin"
+        class="img-l"
+        onclick="zdj(this.src)"
+      />
+      <img
+        src="./serengeti.jpg"
+        alt="serengeti"
+        class="img-l"
+        onclick="zdj(this.src)"
+      />
+      <img
+        src="./wenecja.jpg"
+        alt="wenecja"
+        class="img-l"
+        onclick="zdj(this.src)"
+      />
+      <img
+        src="./tajlandia.jpg"
+        alt="tajlandia"
+        class="img-l"
+        onclick="zdj(this.src)"
+      />
+    </section>
+    <section class="prawy">
+      <h3>Obrazy w naszej galerii</h3>
+      <table>
+        <tr>
+          <td>Europa</td>
+          <td>Azja</td>
+          <td>Afryka</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>2</td>
+          <td>1</td>
+        </tr>
+      </table>
+      <p>
+        Polub nas
+        <img src="./icon-off.png" alt="" id="iconka" onclick="zmIkon()" />
+      </p>
+
+      <a href="https://pixabay.com" target="_blank">Odkryj więcej zdjęć</a>
+    </section>
+    <footer>Autor: nie wie nikt co mial na mysli</footer>
+    <script src="main.js"></script>
+  </body>
+</html>

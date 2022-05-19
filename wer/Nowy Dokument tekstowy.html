@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="nazwaOceny"></div>
+    <script>
+      const nazwaOceny = document.querySelector("#nazwaOceny");
+      let ocena = 4;
+      switch (ocena) {
+        case 1:
+          nazwaOceny.innerHTML = ocena + "<p>niedostateczny</p>";
+          break;
+        case 2:
+          nazwaOceny.innerHTML = ocena + "<p>dopuszczajacy</p>";
+          break;
+        case 3:
+          nazwaOceny.innerHTML = ocena + "<p>dostateczny</p>";
+          break;
+        case 4:
+          nazwaOceny.innerHTML = ocena + "<p>dobry</p>";
+          break;
+        case 5:
+          nazwaOceny.innerHTML = ocena + "<p>bardzo dobry</p>";
+          break;
+        case 6:
+          nazwaOceny.innerHTML = ocena + "<p>celujacy</p>";
+          break;
+        default:
+          nazwaOceny.innerHTML = "<p>???</p>";
+      }
+    </script>
+  </body>
+</html>
